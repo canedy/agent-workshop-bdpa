@@ -1,5 +1,9 @@
 # Chicken Coop IoT Agent Workshop
 
+## Project Overview
+
+This is a Mastra-based IoT workshop for building intelligent agents that manage a chicken coop. The project demonstrates AI agent development with real-time IoT sensor data, memory persistence, human-in-the-loop controls, and MQTT messaging. Built with TypeScript and the Mastra framework for AI agents and workflows.
+
 ## Setup
 
 1. Start Mastra playground: `pnpm run dev`
@@ -206,3 +210,56 @@ HIVEMQ_BROKER_URL=your_hivemq_url
 HIVEMQ_USERNAME=your_username
 HIVEMQ_PASSWORD=your_password
 ```
+
+## Resources & Documentation
+
+### Mastra Framework
+- [Mastra Documentation](https://mastra.dev/docs) - Official documentation for the Mastra AI agent framework
+- [Mastra GitHub](https://github.com/mastra-ai/mastra) - Source code and examples
+- [Mastra Playground](https://mastra.dev/playground) - Interactive playground for testing agents
+
+### MQTT & IoT
+- [HiveMQ Cloud](https://www.hivemq.com/mqtt-cloud-broker/) - Cloud-based MQTT broker for IoT messaging
+- [MQTT.org](https://mqtt.org/) - MQTT protocol documentation and best practices
+- [MQTT Explorer](https://mqtt-explorer.com/) - Desktop tool for debugging MQTT messages
+
+### AI Agent Development
+- [LangChain Documentation](https://python.langchain.com/docs) - Concepts and patterns for building AI agents
+- [OpenAI API Reference](https://platform.openai.com/docs) - GPT model documentation
+- [Anthropic Claude](https://www.anthropic.com/claude) - Alternative LLM for agent development
+
+### TypeScript & Node.js
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/) - Official TypeScript documentation
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - Comprehensive guide to Node.js development
+- [pnpm Documentation](https://pnpm.io/) - Fast, disk space efficient package manager
+
+### Workshop Materials
+- [WORKSHOP_GUIDE.md](./WORKSHOP_GUIDE.md) - Complete workshop instructions and lab exercises
+- [CLAUDE.md](./CLAUDE.md) - Project guidance for Claude Code AI assistant
+- [Workshop Slides](https://docs.google.com/presentation) - _(Add link to presentation materials)_
+
+### Related Projects
+- [IoT Agent Examples](https://github.com/mastra-ai/examples) - Collection of Mastra agent examples
+- [MQTT Chicken Coop](https://github.com/topics/chicken-coop-automation) - Similar IoT chicken coop projects
+- [Smart Agriculture IoT](https://github.com/topics/smart-agriculture) - Agricultural IoT applications
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the Mastra team for providing an excellent AI agent framework
+- HiveMQ for providing reliable MQTT cloud services
+- The open-source community for continuous inspiration and support
+- BDPA for hosting the workshop and supporting STEM education
